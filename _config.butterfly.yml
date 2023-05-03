@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: /img/logo.png # image
+  logo: /img/dog.png # image
   display_title: true
   fixed: true # fixed navigation bar
 
@@ -33,7 +33,7 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-twitter: https://github.com/xxxxx || Github || '#24292e'
+  fab fa-twitter: https://github.com/xxxxx || Twitter || '#24292e'
   fa-solid fa-envelope: mailto:oldchow.zsh@gmail.com || Email || '#24292e'
 
 # Image (圖片設置)
@@ -51,7 +51,7 @@ top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
