@@ -903,7 +903,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.6.0/style.min.css" />
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
     # - <link rel="stylesheet" href="/css/suyu.css">
 
 # CDN
