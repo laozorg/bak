@@ -51,3 +51,8 @@
     background:#49b1f5 ;
     color:#FFF
 }
+
+#pagination .page-number.current {
+    background: #49b1f5;
+    color: var(--white);
+}
