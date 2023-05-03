@@ -5,19 +5,21 @@
 nav:
   logo: /img/dog.png # image
   display_title: true
-  fixed: true # fixed navigation bar
+  fixed: false # fixed navigation bar
 
 # Menu 目錄
 menu:
-  主页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
+  # 主页: / || fas fa-home
+  时间轴: /archives/ || fa-solid fa-bars-staggered
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
-  实验室||fas fa-list:
-    小鸡状态: https://status.oldchow.cn || fas fa-music
+  实验室|| fa-solid fa-vial-virus:
+    Memos: https://memos.oldchow.cn || fa-solid fa-memo
+    老周的小鸡们: https://status.oldchow.cn || fa-regular fa-block-brick
     # Movie: /movies/ || fas fa-video
+    # s: /movies/ || fas fa-memo
   # Link: /link/ || fas fa-link
-  关于我: /about/ || fas fa-heart
+  # 关于我: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -33,7 +35,7 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-twitter: https://github.com/xxxxx || Twitter || '#24292e'
+  fab fa-twitter: https://twitter.com/oldchow_zsh || Twitter || '#24292e'
   fa-solid fa-envelope: mailto:oldchow.zsh@gmail.com || Email || '#24292e'
 
 # Image (圖片設置)
@@ -221,7 +223,7 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # display on mobile
+  mobile: false # display on mobile
   position: right # left or right
   display:
     archive: true
@@ -229,9 +231,9 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: Hi there, welcome to my blog.
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/xxxxxx
@@ -646,7 +648,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: true
+footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -904,7 +906,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
-    # - <link rel="stylesheet" href="/css/suyu.css">
+    - <link rel="stylesheet" href="/css/suyu.css">
 
 # CDN
 # Don't modify the following settings unless you know how they work
