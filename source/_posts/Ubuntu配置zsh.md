@@ -1,5 +1,7 @@
 ---
 title: "Ubuntu配置oh-My-Zsh"
+date: 2023-05-01 16:28:39
+cover: https://cdn.oldchow.cn/js0T69.png
 ---
 
 ## #1.安装zsh
@@ -12,8 +14,6 @@ sudo apt-get install zsh
 
 官网[[Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)]
 
-
-
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -23,8 +23,6 @@ or
 ```bash
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
-
-
 
 ## #3.命令提示插件
 
