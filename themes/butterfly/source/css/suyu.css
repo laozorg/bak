@@ -56,3 +56,8 @@
     background: #49b1f5;
     color: var(--white);
 }
+
+#recent-posts > .recent-post-item .post_cover{
+    width: fit-content;
+    height: fit-content;
+}
