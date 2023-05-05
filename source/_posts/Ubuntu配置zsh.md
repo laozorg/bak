@@ -1,7 +1,14 @@
 ---
 title: "Ubuntu配置oh-My-Zsh"
-date: 2023-05-01 16:28:39
+date: 2023-05-02 16:28:39
 cover: https://cdn.oldchow.cn/js0T69.png
+tags: 
+- Linux
+- Ubuntu
+- Zsh
+categories: 
+- Linux
+description: 记录下如何快速打造下ubuntu的舒服的命令界面。
 ---
 
 ## #1.安装zsh
