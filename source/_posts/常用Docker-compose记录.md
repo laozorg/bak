@@ -9,7 +9,7 @@ cover: https://s2.loli.net/2023/05/11/XBaie8yEYqchxPS.png
 
 ## #1、nginx_proxy_manager
 
-```yam
+```yaml
 version: '3'
 services:
   app:
